@@ -1,0 +1,45 @@
+.background{
+ background-color: black;
+ height: 100vh;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color:white;
+    text-align: center;
+}
+#mainContainerTICTACTOE {
+    border : 0.5 px solid black;
+    width : 900px;
+    height : 900px;
+    display: grid;
+    grid-template-columns: (3,auto);
+    font-size: 15em;
+    border-radius: 8px;
+    cursor:pointer;
+    margin-left: 500px;
+}
+.subContainer{
+    margin : 0;
+    padding :0;
+    display: flex;
+}
+.subContainer > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 300px;
+    height: 300px;
+    color:orange;
+    background-color: black; 
+    border : 0.5px solid white;
+    text-align: center;
+}
+#winner {
+    font-size: 10em;
+}
+.inline {
+    align-items: center;
+    font-size: 1.1em;
+}

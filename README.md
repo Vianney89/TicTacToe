@@ -1,2 +1,2 @@
 # TicTacToe
-Javascript Project
+Simple TicTacToe Game. Enjoy
